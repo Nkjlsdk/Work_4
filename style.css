@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: blanchedalmond;
+}
+body {
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.container {
+    width: 1170px;
+    margin:0 auto;
+     }
+
+.logoGB {
+    margin-top: 40px;
+    margin-bottom: 84px;   
+   
+}
+.header_nav {
+    display: flex;
+    justify-content: space-betweence;
+    gap: 500px;                
+}
+nav {
+    margin-top: 51px;
+    margin-bottom: 96px;
+    width: 533px; 
+    display: flex;
+    justify-content: space-around;
+  }
+   
+    
+   .color_ {
+    padding-left: calc(100/8);
+    font-family: 'gilroy-semibold';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #F25822;
+   }
+   .color {
+    font-family: 'gilroy-semibold';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color:#000000;
+    
+   }
+main {
+    margin-bottom: 162px;
+    }
+section {
+    display: flex;
+    gap: 40,94px;
+}
+.title_1 {
+    font-family: 'Gilroy-Bold';
+    font-style: normal;
+    margin-bottom: 17px;
+    font-size: 60px;
+line-height: 70px;
+color: #000000;
+}
+.title_2 {
+    font-family: 'Gilroy-Medium';
+    font-style: normal;
+    margin-bottom: 37px;
+    font-size: 20px;
+line-height: 23px;
+color: #888888;
+
+
+}
+
+.button_1 {
+    padding-top: 15px;
+    padding-bottom: 16px;
+    padding-left: 35px;
+    padding-right: 36px;
+    font-family: 'Gilroy-Bold';
+    font-style: normal;
+    font-size: 15px;
+line-height: 18px;
+border: none;
+outline: none;
+cursor: pointer;
+background: #F25822;
+box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+border-radius: 50px;
+
+color: #FFFFFF;
+}
+ .button_2 {
+   margin-left: 72px;
+   font-family: 'Gilroy-Bold';
+    font-style: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #AAAAAA;
+border: none;
+outline: none;
+cursor: pointer;
+
+}
+footer {
+    padding-top: 97;
+    padding-bottom: 96px;
+    }
+.footer_img {
+    display: flex;
+    justify-content: space-around;
+}
+
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url(/fonts/Gilroy-Bold.ttf);
+}
+@font-face {
+    font-family: Gilroy-Medium;
+    src: url(/fonts/Gilroy-Medium.ttf);
+}
+@font-face {
+    font-family: gilroy-semibold;
+    src: url(/fonts/gilroy-semibold.ttf);
+}
